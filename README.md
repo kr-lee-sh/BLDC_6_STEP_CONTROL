@@ -24,7 +24,7 @@ This sequence repeats continuously to keep the motor rotating.
 ## Video Resources
 
 <!-- Add your video links here -->
-- [Add your video explanations here]
+<!-- Example: - Video 1: Explanation of 6-Step Control - [URL] -->
 
 ### How to Record Videos
 1. Prepare slides or diagrams showing the 6-step sequence
