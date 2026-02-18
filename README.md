@@ -2,21 +2,16 @@
 Study of the 6-step control method for controlling BLDC motors
 
 ## Overview
-This repository documents my study of the 6-step commutation control method for Brushless DC (BLDC) motors. The content includes theoretical explanations and video demonstrations to help understand how this control method works.
+This repository documents my study of the 6-step control method for BLDC motors, with video explanations of how the motor is driven.
 
-## What is BLDC 6-Step Control?
+## How to Drive a BLDC Motor
 
-### Basic Principle
-BLDC motors are electronically commutated motors that require precise control of the stator windings to generate a rotating magnetic field. The 6-step control method is one of the simplest and most commonly used techniques for controlling BLDC motors.
+### Basic Concept
+BLDC motors have three phases (A, B, C) that need to be energized in a specific sequence to make the motor spin. The 6-step method drives the motor by switching which phases are powered in six sequential steps.
 
-### How It Works
-1. **Six Discrete Steps**: The control sequence divides one electrical cycle into six distinct steps (60° electrical degrees each)
-2. **Two-Phase Energization**: At any given time, only two of the three motor phases are energized
-3. **Hall Sensor Feedback**: Hall effect sensors detect the rotor position and trigger the appropriate commutation step
-4. **Trapezoidal Back-EMF**: This method works best with motors having trapezoidal back-EMF waveforms
+### The 6-Step Sequence
+Each electrical cycle is divided into six steps. At each step, two phases are energized:
 
-### Commutation Sequence
-The typical 6-step sequence energizes the phases as follows:
 - Step 1: A+ B-
 - Step 2: A+ C-
 - Step 3: B+ C-
@@ -24,75 +19,25 @@ The typical 6-step sequence energizes the phases as follows:
 - Step 5: C+ A-
 - Step 6: C+ B-
 
+This sequence repeats continuously to keep the motor rotating.
+
 ## Video Resources
 
-### Study Videos
-This section contains links to video explanations and demonstrations:
-
 <!-- Add your video links here -->
-- **Video 1: Introduction to BLDC Motors** - [Add link]
-- **Video 2: 6-Step Commutation Explained** - [Add link]
-- **Video 3: Practical Implementation** - [Add link]
+- [Add your video explanations here]
 
-### Recording Your Own Videos
-To record and share your study videos:
+### How to Record Videos
+1. Prepare slides or diagrams showing the 6-step sequence
+2. Record using screen capture software (OBS, Camtasia, etc.)
+3. Upload to YouTube or your preferred platform
+4. Add the link above
 
-1. **Preparation**
-   - Prepare your slides or demonstration materials
-   - Set up screen recording software (OBS Studio, Camtasia, etc.)
-   - Test your microphone and audio levels
+## What to Explain in Videos
 
-2. **Recording**
-   - Explain the theoretical concepts clearly
-   - Use diagrams and animations to illustrate the 6-step sequence
-   - Demonstrate practical implementations if available
-   - Keep videos focused and concise (5-15 minutes per topic)
-
-3. **Sharing**
-   - Upload to YouTube, Vimeo, or your preferred platform
-   - Add the links to the "Study Videos" section above
-   - Consider adding timestamps for easy navigation
-
-## Key Concepts to Cover in Videos
-
-1. **BLDC Motor Fundamentals**
-   - Motor construction and components
-   - Difference between BLDC and brushed DC motors
-   - Role of electronic commutation
-
-2. **6-Step Control Theory**
-   - Why six steps? (Electrical angle divisions)
-   - Phase energization patterns
-   - Torque ripple characteristics
-
-3. **Hall Sensor Operation**
-   - Sensor placement and signals
-   - Decoding Hall states for commutation
-   - Synchronization with rotor position
-
-4. **Implementation Details**
-   - Microcontroller requirements
-   - PWM generation for speed control
-   - Driver circuits and power stages
-
-## Additional Resources
-
-### Recommended References
-- Application notes on BLDC motor control
-- Motor manufacturer datasheets
-- Controller IC documentation
-
-### Related Topics
-- Field-Oriented Control (FOC) as an alternative method
-- Sensorless control techniques
-- Motor parameter measurement
-
-## Contributing
-Feel free to contribute by:
-- Adding educational videos
-- Sharing implementation examples
-- Improving explanations
-- Reporting issues or suggesting enhancements
+When recording videos, focus on:
+- The 6-step commutation sequence
+- How energizing different phase combinations makes the motor rotate
+- Why the sequence needs to be in the correct order
 
 ## License
 This is a study project for educational purposes.
