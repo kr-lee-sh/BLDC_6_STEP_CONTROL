@@ -23,14 +23,28 @@ This sequence repeats continuously to keep the motor rotating.
 
 ## Video Resources
 
-<!-- Add your video links here -->
-<!-- Example: - Video 1: Explanation of 6-Step Control - [URL] -->
+<!-- Add your video links here after uploading -->
+<!-- Example: - [BLDC 6-Step Control Explained](https://youtube.com/watch?v=xxxxx) -->
 
-### How to Record Videos
-1. Prepare slides or diagrams showing the 6-step sequence
-2. Record using screen capture software (OBS, Camtasia, etc.)
-3. Upload to YouTube or your preferred platform
-4. Add the link above
+### Where to Upload Videos
+
+Videos should be uploaded to an external video hosting platform (not stored in this GitHub repository):
+
+**Recommended platforms:**
+- **YouTube** - Free, unlimited uploads, easy sharing (https://youtube.com)
+- **Vimeo** - High quality, clean interface (https://vimeo.com)
+- **Google Drive** - Share with view-only link (https://drive.google.com)
+
+### How to Add Your Videos
+
+1. **Record** your video using screen capture software (OBS, Camtasia, etc.)
+2. **Upload** to YouTube, Vimeo, or another video platform
+3. **Copy** the video URL/link
+4. **Edit this README** by replacing the comment above with your link:
+   ```
+   - [Video Title](https://your-video-url-here)
+   ```
+5. **Commit** the change to update the repository
 
 ## What to Explain in Videos
 
