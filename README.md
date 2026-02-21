@@ -23,4 +23,4 @@ This module drives a BLDC motor equipped with a Hall sensor using a 6-step contr
 
 # 🖥️waveform analysis
 ![image_4](https://github.com/user-attachments/files/25455339/22.bmp)
-[21.bmp](https://github.com/user-attachments/files/25455338/21.bmp)
+![image_4](https://github.com/user-attachments/files/25455338/21.bmp)
